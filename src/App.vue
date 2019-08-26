@@ -17,10 +17,12 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import HelloWorld from './components/HelloWorld.vue';
+import {DataTable} from 'primevue/datatable';
 
 @Component({
   components: {
     HelloWorld,
+    DataTable
   },
 })
 export default class App extends Vue {

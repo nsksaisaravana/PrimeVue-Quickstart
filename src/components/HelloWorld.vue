@@ -19,7 +19,8 @@ export default class HelloWorld extends Vue {
   
   
   //private columns=[];
-  private cars: any;
+  @Prop()
+    public cars: any;
 
 
 
